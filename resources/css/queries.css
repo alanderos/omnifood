@@ -57,12 +57,30 @@
     
     section{padding: 30px 0;}
     
+    /* Making the navigation responsive 08:09/20:14 */
+    
     .row,
     .hero-text-box{padding: 0 4%;}
     
     .col{width: 100%;}
     
-    .main-nav{display: none;}
+    /*.main-nav{display: none;}*/
+    
+    .mobile-nav-icon{display:inline-block;}
+    .main-nav{float: left;}
+    
+    
+    
+    .main-nav li{
+        display: block;
+        
+    }
+    
+    .main-nav a:link,
+    .main-nav a:visited{
+        display: block;
+        border: 0;
+    }
     
     h1{font-size: 180%;}
     h2{font-size: 150%;}
